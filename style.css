@@ -6,15 +6,27 @@
         background-attachment: fixed;
         font-size: 20px;
         font-family: sans-serif;
-        margin: 0px 0px 0px;
-       
-      }
-    h1{ color:#8848c4;
+        margin: 0px 0px;
+        overflow-x: hidden;
+        
+        }
+
+  strong{
+
+    font-weight: bolder;
     }
+
+    h1{ 
+      
+      font-size: 20;
+      color:#8848c4;
+    }
+
     p{
-        color: oldlace;
+        color: rgb(255, 255, 255);
         text-align:center;
     }
+
     table {
         width: 100%;
       }
@@ -28,17 +40,12 @@
           text-align:center;
       }
 
-      .header {
-        position:absolute;
-        background-color: #ffffff;
-        text-align: center;
-        margin: 0px 0px 0px;
-        text-align:center;
-      }
+      
       table, th, td {
         border: 1px solid black;
         color: rgb(255, 255, 255);
       }
+
       h2,h3,h4{
           color: rgb(70, 69, 64);
           text-align:center;
@@ -48,28 +55,14 @@
         width: 80%;
         margin-left: auto;
         margin-right: auto;
-        margin-bottom: auto;
-        margin-top: auto ;
-
-    }
+       }
 
     header, footer{
         width: 100%;
         margin: 0px 0px 0px;
         background-color: #f3c3e0cc;
-        padding: 20px;
+        padding: 25px;
         box-shadow: 1px 1px 2px rgb(204, 172, 201);
         text-align: center
     }
-    
   
-    .footer{
-      width: 100%;
-      position:absolute;
-      background-color: #ffffff;
-      text-align: center;
-      margin: 0px 0px 0px;
-      text-align:center;
-      bottom: 0px;
-        
-    }
